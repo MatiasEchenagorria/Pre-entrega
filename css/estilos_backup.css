@@ -1,0 +1,39 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.header{
+    height: 40vh;
+    block-size: auto;
+     background-color: rgb(9, 46, 255);
+     box-sizing: border-box;
+}
+
+
+.main {
+    margin: 0%;
+    padding: 0%;
+    block-size: auto;
+    background-color: yellow;
+    box-sizing: border-box;
+}
+.footer {
+    margin: auto;
+    padding: auto;
+    block-size: auto;
+    background-color: rgb(9, 46, 255);
+    box-sizing: border-box;
+    
+}
+
+.listaNav{
+    list-style: none;
+}
+
+.linknav {
+    font-size: large;
+    font-style: italic;
+    color: yellow;
+    
+}
