@@ -6,12 +6,21 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
+    color: blue
 }
 
 .header {
   
 }
+
+.thumbnail img {
+    max-width: 100%;
+    height: auto;
+
+
+}
+
+
 
 .bgAzul {
     background-color: blue;
