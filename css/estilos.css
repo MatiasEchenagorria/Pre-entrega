@@ -9,9 +9,6 @@ body {
     color: blue
 }
 
-.header {
-  
-}
 
 .thumbnail img {
     max-width: 100%;
@@ -28,4 +25,9 @@ body {
 
 .bgAmarillo {
     background-color: yellow;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
 }
