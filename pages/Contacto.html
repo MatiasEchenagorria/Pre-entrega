@@ -11,7 +11,7 @@
 
 </head>
 <body>
-    <header class="header">
+   <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light bgAzul">
           <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
@@ -25,16 +25,16 @@
                   <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/historia.html">Historia</a>
+                  <a class="nav-link" href="./historia.html">Historia</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/jugadores.html">Jugadores</a>
+                  <a class="nav-link" href="./jugadores.html">Jugadores</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../pages/estadio.html">Estadio</a>
+                  <a class="nav-link" href="./estadio.html">Estadio</a>
                 </li>
                 <li>
-                  <a class="nav-link" href="../pages/Contacto.html">Contactanos</a>
+                  <a class="nav-link" href="./contacto.html">Contactanos</a>
                 </li>
               </ul>
             </div>
@@ -47,34 +47,37 @@
         <h1>Contacto</h1>
         <section>
             <h2>Contactanos</h2>
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Ingresa tu email</div>
+            <form action="">
+              <label for="nombre">Nombre*</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre" required>
+
+              <label for="apellido">Apellido*</label>
+              <input type="text" id="apellido" name="apellido" placeholder="Ingrese su Apellido" required>
+
+              <label for="mail">Email*</label>
+              <input type="email" id="mail" name="email" placeholder="ejemplo@servidor.com" required>
+
+              <label for="comentario">Comentario</label>
+              <textarea name="comentario" id="comentario" cols="60" rows="5" placeholder="Ingrese su comentario"></textarea>
+
+              <div>
+                  <input type="submit" value="Enviar Formulario">
+                  <input type="reset" value="Limpiar Formulario">
               </div>
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Mantener la sesion abierta</label>
-              </div>
-              <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
-            </form>
+
+          </form>>
         </section>
     </main>
     
     <footer class="bgAzul">
-        <nav>
+        
                 <ul>
                     <li><a href="https://soysocio.bocajuniors.com.ar/terminos_y_condiciones.php"target=_blank>Acuerdos y Condiciones</a></li>
                     <li><a href="../pages/jugadores.html">Conoce Nuestros Jugadores</a></li>
                     <li><a href="../pages/Contacto.html">Contactanos</a></li>
                     <li><a href="../pages/historia.html">Conoce La Historia Del Club</a></li>
                 </ul>
-        </nav>
+        
     </footer>
     
 </body>
