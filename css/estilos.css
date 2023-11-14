@@ -1,6 +1,6 @@
 * {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -26,26 +26,44 @@ body {
 
 .bgAzul {
     background-color: blue;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .bgAmarillo {
     background-color: yellow;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+/*para celular*/
+@media screen and (max-width: 768px) {
+ 
+.bgAzul{
+    padding: 15px;
+    border-radius: 10px;
 }
 
-.footer {
-    margin: 0%;
-    padding: 0%;
-    font-size: large;
+.bgAmarillo{
+    padding: 20px;
+    border-radius: 10px;
 }
 
-@media screen and (max-width: 600px) {
-    footer {
-        flex-direction: column;
-    }
+}
 
-    body {
-        padding: 10px 0;
-    }
+/*para notebook*/
+@media screen and (max-width: 992px) {
+.bgAzul{
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.bgAmarillo {
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
 
 
 }
