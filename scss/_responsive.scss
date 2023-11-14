@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px) {
+ 
+.bgAzul{
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.bgAmarillo{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+}
+
+/*para notebook*/
+@media screen and (max-width: 992px) {
+.bgAzul{
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.bgAmarillo {
+    padding: 15px;
+    border-radius: 10px;
+    box-sizing: content-box;
+}
+
+
+}

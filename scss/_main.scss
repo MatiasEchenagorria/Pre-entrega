@@ -1,0 +1,20 @@
+.bgAmarillo {
+    background-color: $color-secundario;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: $fuente-normal;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.form {
+    background-color: $color-blanco;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: $fuente-normal;
+}

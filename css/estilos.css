@@ -1,69 +1,61 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.bgAzul {
+  background-color: blue;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1em;
 }
 
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue
+.bgAmarillo {
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 1em;
 }
-
 
 .thumbnail img {
-    max-width: 100%;
-    height: auto;
-
-
+  max-width: 100%;
+  height: auto;
 }
 
 .form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 1em;
 }
 
-.bgAzul {
-    background-color: blue;
-    padding: 20px;
-    border-radius: 5px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.bgAmarillo {
-    background-color: yellow;
-    padding: 20px;
-    border-radius: 5px;
-    
+body {
+  font-family: 1em;
+  color: blue;
 }
-/*para celular*/
+
 @media screen and (max-width: 768px) {
- 
-.bgAzul{
+  .bgAzul {
     padding: 15px;
     border-radius: 10px;
-}
-
-.bgAmarillo{
+  }
+  .bgAmarillo {
     padding: 20px;
     border-radius: 10px;
+  }
 }
-
-}
-
 /*para notebook*/
 @media screen and (max-width: 992px) {
-.bgAzul{
+  .bgAzul {
     padding: 15px;
     border-radius: 5px;
     box-sizing: border-box;
-}
-
-.bgAmarillo {
+  }
+  .bgAmarillo {
     padding: 15px;
     border-radius: 10px;
     box-sizing: content-box;
-}
-
-
-}
+  }
+}/*# sourceMappingURL=estilos.css.map */
