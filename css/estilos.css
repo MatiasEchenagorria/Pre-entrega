@@ -108,4 +108,93 @@ img {
 .img {
   width: 50px;
   height: 50px;
+}
+
+.ha {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  text-align: left;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+.btn-secondary {
+  background-color: red;
+}
+
+.btn-secondary:hover {
+  background-color: red;
+}
+
+.carousel-item {
+  text-align: right;
+}
+
+.carousel-caption {
+  text-align: left;
+}
+
+.comment-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.text-form {
+  text-align: center;
+  color: blue;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Titulo-jugadores {
+  text-align: center;
+  font-size: 2em;
 }/*# sourceMappingURL=estilos.css.map */
