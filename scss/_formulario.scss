@@ -1,11 +1,10 @@
-.ha{
+.formulario{
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 50vh;
   }
 
   .form {
@@ -57,32 +56,4 @@
 
   .btn-secondary:hover {
     background-color: red;
-  }
-
-
-
-  .carousel-item {
-    text-align: right; 
-  }
-
-  .carousel-caption {
-    text-align: left; 
-  }
-
-  .comment-icon {
-    width: 50px; 
-    height: 50px;
-    border-radius: 50%; 
-  }
-
-
-  .text-form {
-    text-align: center;
-    color: $color-primario;
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-
-
   }
